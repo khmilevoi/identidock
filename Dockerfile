@@ -9,4 +9,4 @@ COPY cmd.sh /
 EXPOSE 5000 9090 9191
 USER uwsgi
 
-ENTRYPOINT ["bash", "./cmd.sh"]
+ENTRYPOINT ["bash", "../cmd.sh"]
